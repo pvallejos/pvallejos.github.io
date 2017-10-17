@@ -3,7 +3,7 @@ layout: post
 title: Evil Access Point
 ---
 
-Evil Access Point with Raspberry Pi
+Evil Access Point with Linux
 
 ![_config.yml]({{ site.baseurl }}/images/20160711.jpeg)
 
