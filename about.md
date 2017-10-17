@@ -8,7 +8,7 @@ I am Vay3t
 
 ### More Information
 
-V for Vay3t, 802.11 +
+V for Vay3t, 802.11
 
 ### Contact me
 
