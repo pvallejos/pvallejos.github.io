@@ -9,8 +9,6 @@ Evil Access Point with Raspberry Pi
 
 
 # Materiales
-* Raspberry Pi
-* Raspbian
 * TL-WN722N (tarjeta de red tp-link)
 
 
@@ -22,14 +20,8 @@ sudo apt-get install -y hostapd dnsmasq wireless-tools iw
 
 ### Instalando bettercap
 ```
-sudo su
-apt-get install curl ruby-dev libpcap-dev -y
-gpg2 --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3
-curl -sSL https://get.rvm.io | sudo bash -s stable
-echo "source /usr/local/rvm/scripts/rvm" >> ~/.bashrc
-source /usr/local/rvm/scripts/rvm
-rvm install ruby-2.3.3
-gem install bettercap
+sudo apt-get install curl ruby-dev libpcap-dev -y
+sudo gem install bettercap
 ```
 
 # Configuracion
@@ -129,7 +121,7 @@ Para poder ver quien esta en la red interna se recomienda descargar fing desde l
 ```
 wget https://www.fing.io/wp-content/uploads/2016/10/overlook-fing-3.0.deb
 sudo dpkg -i overlook-fing-3.0.deb
-fing -n 10.0.0.1/24
+sudo fing 10.0.0.1/24
 ```
 
 # Portal cautivo
