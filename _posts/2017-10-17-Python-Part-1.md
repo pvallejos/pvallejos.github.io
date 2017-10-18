@@ -75,8 +75,8 @@ El orden de los operadores aritmeticos de mayor prioridad a menor (Una forma rap
 * Adicion
 * Sustracion 
 
-|_. Operador |_. Descripción |_. Ejemplo |
-|----------|-------------|---------|
+| Operador | Descripción | Ejemplo |
+|---|:---|:---|
 | "+" | Suma | r = 3 + 2 # r es 5 |
 | "-" | Resta | r = 4 - 7 # r es -3 |
 | "-" | Negación | r = -7 # r es -7 |
@@ -89,7 +89,7 @@ El orden de los operadores aritmeticos de mayor prioridad a menor (Una forma rap
 # Operadores logicos
 
 Operador | Descripción | Ejemplo
----------|-------------|---------
+|---|:---|:---|
 "and" | ¿se cumple a y b? | r = True and False # r es False
 "or" | ¿se cumple a o b? | r = True or False # r es True
 "not" | No a | r = not True # r es False
@@ -98,7 +98,7 @@ Operador | Descripción | Ejemplo
 Los operadores relacionales se usan para comparar 2 valores y saber si son iguales, distintos, etc
 
 Operadores | Descripción | Ejemplo
------------|-------------|---------
+|---|:---|:---|
 "==" | ¿son iguales a y b? | r = 5 == 3 # r es False
 "!=" | ¿son distintos a y b? | r = 5 != 3 # r es True
 "<" | ¿es a menor que b? | r = 5 < 3 # r es False
