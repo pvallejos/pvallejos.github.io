@@ -438,3 +438,8 @@ table th[class*="col-"] {
     border-bottom: 0;
   }
 }
+
+th {
+background: #022106;
+color: #25be10;
+}
