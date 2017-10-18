@@ -206,8 +206,9 @@ caption {
   color: #777777;
   text-align: left;
 }
-th {
-  text-align: left;
+td, th {
+padding: 10px;
+border: 1px solid #666666;
 }
 .table {
   width: 100%;
