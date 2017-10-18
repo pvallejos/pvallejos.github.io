@@ -28,13 +28,11 @@ La serie de Python al dolor ofrece la ayuda y la enseñanza necesaria en poco ti
 # Consola Python
 Python posee una consola para poder interactuar con el lenguaje de forma directa sin necesidad de ejecutar un archivo.
 
-```
-root@vay3t:~# python
+```root@vay3t:~# python
 Python 2.7.12 (default, Nov 19 2016, 06:48:10) 
 [GCC 5.4.0 20160609] on linux2
 Type "help", "copyright", "credits" or "license" for more information.
->>> 
-```
+>>> ```
 
 # Tipos de datos
 Tenemos varios tipos de datos como: cadenas, enteros, flotantes, complejos, enteros largo, listas, tuplas, booleanos y diccionarios. Con el metodo `type` se puede saber que tipo de dato es con el que estamos trabajando como se muestra en el ejemplo.
