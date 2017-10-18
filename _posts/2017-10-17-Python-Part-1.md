@@ -75,7 +75,7 @@ El orden de los operadores aritmeticos de mayor prioridad a menor (Una forma rap
 * Adicion
 * Sustracion 
 
-| Operador | Descripción | Ejemplo |
+|_. Operador |_. Descripción |_. Ejemplo |
 |----------|-------------|---------|
 | "+" | Suma | r = 3 + 2 # r es 5 |
 | "-" | Resta | r = 4 - 7 # r es -3 |
