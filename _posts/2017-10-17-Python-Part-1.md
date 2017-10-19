@@ -3,7 +3,7 @@ layout: post
 title: Python al dolor capitulo 1
 ---
 
-Introduccion a Python
+Introduccion a Python: ventajas, consola, tipo de datos, tipo de operadores y variables.
 
 # Antes de comenzar
 La serie de Python al dolor ofrece la ayuda y la enseñanza necesaria en poco tiempo para poder dominar uno de los lenguajes de scripting mas usados en la actualidad. 
@@ -105,3 +105,18 @@ Operadores | Descripción | Ejemplo
 ">" | ¿es a mayor que b? | r = 5 > 3 # r es True
 "<=" | ¿es a menor o igual que b? | r = 5 <= 5 # r es True
 ">=" | ¿es a mayor o igual que b? | r = 5 >= 3 # r es True
+
+# Variables
+Una variable está formada por un espacio de memoria principal de un computador y un nombre simbolico que esta asociado a ese espacio. Puede almacenar cualquier tipo de datos y puede ser llamado por el nombre dado cuando uno lo estime conveniente.
+
+```
+root@vay3t:~# python
+Python 2.7.12 (default, Nov 19 2016, 06:48:10) 
+[GCC 5.4.0 20160609] on linux2
+Type "help", "copyright", "credits" or "license" for more information.
+>>> valor1 = 1
+>>> valor2 = 3
+>>> respuesta = valor1 + valor2
+>>> respuesta
+4
+```
