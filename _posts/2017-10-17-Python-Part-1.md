@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Python al dolor cap 1
+title: Python al dolor capitulo 1
 ---
 
 Introduccion a Python
