@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Python al dolor capitulo 1
+title: Python al dolor Capitulo 1
 ---
 
 Introduccion a Python: ventajas, consola, tipo de datos, tipo de operadores y variables.
