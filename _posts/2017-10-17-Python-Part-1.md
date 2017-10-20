@@ -40,10 +40,6 @@ Type "help", "copyright", "credits" or "license" for more information.
 Tenemos varios tipos de datos como: cadenas, enteros, flotantes, complejos, enteros largo, listas, tuplas, booleanos y diccionarios. Con el metodo `type` se puede saber que tipo de dato es con el que estamos trabajando como se muestra en el ejemplo.
 
 ```
-root@vay3t:~# python
-Python 2.7.12 (default, Nov 19 2016, 06:48:10) 
-[GCC 5.4.0 20160609] on linux2
-Type "help", "copyright", "credits" or "license" for more information.
 >>> type("hola mundo")
 <type 'str'>
 >>> type(1)
@@ -110,10 +106,6 @@ Operadores | Descripción | Ejemplo
 Una variable está formada por un espacio de memoria principal de un computador y un nombre simbolico que esta asociado a ese espacio. Puede almacenar cualquier tipo de datos y puede ser llamado por el nombre dado cuando uno lo estime conveniente.
 
 ```
-root@vay3t:~# python
-Python 2.7.12 (default, Nov 19 2016, 06:48:10) 
-[GCC 5.4.0 20160609] on linux2
-Type "help", "copyright", "credits" or "license" for more information.
 >>> valor1 = 1
 >>> valor2 = 3
 >>> respuesta = valor1 + valor2
