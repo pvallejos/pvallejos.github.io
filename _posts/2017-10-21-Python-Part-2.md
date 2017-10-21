@@ -46,7 +46,7 @@ Muestra la cantidad de veces que se encontró value en la lista.
 ```
 
 * `L.extend(iterable)`
-Añade los elementos del iterable (una lista) a la lista.
+Añade los elementos del iterable (una lista) a la lista original.
 
 ```
 >>> lista = [1,2,3,4,5,6,7,8,9,6]
