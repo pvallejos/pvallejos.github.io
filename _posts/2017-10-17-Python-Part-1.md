@@ -8,6 +8,9 @@ Introduccion a Python: ventajas, consola, tipo de datos, tipo de operadores y va
 # Antes de comenzar
 La serie de Python al dolor ofrece la ayuda y la enseñanza necesaria en poco tiempo para poder dominar uno de los lenguajes de scripting mas usados en la actualidad. 
 
+### Nota
+El libro guia que ocuparé para realizar estos post es `Python para todos`, lo puedes descargar desde aqui [https://vay3t.github.io/books/pythonparatodos.pdf](https://vay3t.github.io/books/pythonparatodos.pdf){:target="_blank"}
+
 # Ventajas
 * Facilidad de uso
 * Multiplataforma
