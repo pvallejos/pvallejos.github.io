@@ -15,7 +15,7 @@ Una lista es un conjunto de elementos, estos elementos estan ordenados desde el 
 ```
 
 * `range(k)`
-Crea una lista de 0 al numero anterior a `k` (`k-1`) donde `k` es un numero entero. Concidentemente `k` es la cantidad de elementos que hay en la lista creada con range. tambien range es posible usarlo con numero de inicio hasta el numero `k-1`
+Crea una lista de 0 al numero anterior a `k` (es decir `k-1`) donde `k` es un numero entero. Concidentemente `k` es la cantidad de elementos que hay en la lista creada con range. tambien range es posible usarlo con numero de inicio hasta el numero `k-1`
 
 ```
 >>> range(9)
