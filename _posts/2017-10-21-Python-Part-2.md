@@ -26,8 +26,8 @@ Crea una lista de 0 al numero anterior a `k` (es decir `k-1`) donde `k` es un nu
 
 ### Metodos de la lista
 
-* `L.append(elemento)`
-Añade un elemento al final de la lista.
+* `L.append(k)`
+Añade el elemento `k` al final de la lista.
 
 ```
 >>> lista = [1,2,3,4,5,6,7,8,9]
