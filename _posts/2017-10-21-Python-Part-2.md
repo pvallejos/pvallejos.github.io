@@ -16,7 +16,6 @@ Una lista es un conjunto de elementos, estos elementos estan ordenados desde el 
 
 * `range(k)`
 Crea una lista de 0 al numero anterior a `k` (es decir `k-1`) donde `k` es un numero entero. Concidentemente `k` es la cantidad de elementos que hay en la lista creada con range. tambien range es posible usarlo con numero de inicio hasta el numero `k-1`
-
 ```
 >>> range(9)
 [0, 1, 2, 3, 4, 5, 6, 7, 8]
@@ -28,7 +27,6 @@ Crea una lista de 0 al numero anterior a `k` (es decir `k-1`) donde `k` es un nu
 
 * `L.append(k)`
 Añade el elemento `k` al final de la lista.
-
 ```
 >>> lista = [1,2,3,4,5,6,7,8,9]
 >>> lista.append(6)
@@ -38,7 +36,6 @@ Añade el elemento `k` al final de la lista.
 
 * `L.count(value)`
 Muestra la cantidad de veces que se encontró value en la lista.
-
 ```
 >>> lista = [1,2,3,4,5,6,7,8,9,6]
 >>> lista.count(6)
@@ -47,7 +44,6 @@ Muestra la cantidad de veces que se encontró value en la lista.
 
 * `L.extend(iterable)`
 Añade los elementos del iterable (una lista) a la lista original.
-
 ```
 >>> lista = [1,2,3,4,5,6,7,8,9,6]
 >>> lista.extend([4,5])
@@ -57,7 +53,6 @@ Añade los elementos del iterable (una lista) a la lista original.
 
 * `L.index(value)`
 Indica la posición en la que se encontró la primera ocurrencia del valor `value`.
-
 ```
 >>> # pos    0 1 2 3 4 5 6
 >>> lista = [4,5,3,7,6,8,9]
@@ -76,7 +71,6 @@ Inserta el elemento en la posición index.
 
 * `L.pop([index])`
 Muestra el valor en la posición index y lo elimina de la lista. Si no se especifica la posición, se utiliza el último elemento de la lista.
-
 ```
 >>> lista = ["hola","mundo",5,3,"wifi",True]
 >>> lista.pop(1)
@@ -91,7 +85,6 @@ True
 
 * `L.remove(value)`
 Eliminar la primera ocurrencia de value en la lista.
-
 ```
 >>> lista = [1,2,3,4,5,6,7,8,9,6]
 >>> lista.remove(6)
@@ -102,7 +95,6 @@ Eliminar la primera ocurrencia de value en la lista.
 
 * `L.reverse()`
 Invierte la lista. Esta función trabaja sobre la propia lista desde la que se invoca el método, no sobre una copia.
-
 ```
 >>> lista = range(1,10)
 >>> lista.reverse()
@@ -112,7 +104,6 @@ Invierte la lista. Esta función trabaja sobre la propia lista desde la que se i
 
 * `L.sort()`
 Ordena la lista de menor a mayor.
-
 ```
 >>> lista = [7,3,5,2,9,0]
 >>> lista.sort()
@@ -130,14 +121,9 @@ Ordena la lista de menor a mayor.
 
 * `D.get(k)`
 Busca el valor de la clave `k` en el diccionario. Es equivalente a utilizar `D[k]` pero al utilizar este método podemos indicar un valor a devolver por defecto si no se encuentra la clave, mientras que con la sintaxis `D[k]` , de no existir la clave se lanzaría una excepción.
-
 ```
 >>> dictionary["ftp"]
 21
->>> dictionary["asd"]
-Traceback (most recent call last):
-  File "<stdin>", line 1, in <module>
-KeyError: 'asd'
 >>> dictionary.get("asd")
 >>> dictionary.get("http")
 80
@@ -145,7 +131,6 @@ KeyError: 'asd'
 
 * `D.has_key(k)`
 Comprueba si el diccionario tiene la clave `k`. Es equivalente a la sintaxis `k in D`.
-
 ```
 >>> "https" in dictionary
 True
@@ -155,23 +140,13 @@ True
 
 * `D.items()`
 Devuelve una lista de tuplas con pares clave-valor.
-
 ```
 >>> dictionary.items()
 [('ftp', 21), ('http', 80), ('ssh', 22), ('https', 443)]
 ```
 
-* `D.keys()`
-Devuelve una lista de las claves del diccionario.
-
-```
->>> dictionary.keys()
-['ftp', 'http', 'ssh', 'https']
-```
-
 * `D.pop(k)`
-Borra la clave `k` del diccionario y devuelve su valor.
-
+Borra la clave `k` del diccionario y muestra su valor.
 ```
 >>> dictionary = {"ftp":21,"ssh":22,"http":80,"https":443}
 >>> dictionary.pop("ftp")
@@ -180,9 +155,15 @@ Borra la clave `k` del diccionario y devuelve su valor.
 {'http': 80, 'ssh': 22, 'https': 443}
 ```
 
-* `D.values()`
-Devuelve una lista de los valores del diccionario.
+* `D.keys()`
+Muestra una lista de las claves del diccionario.
+```
+>>> dictionary.keys()
+['ftp', 'http', 'ssh', 'https']
+```
 
+* `D.values()`
+Muestra una lista de los valores del diccionario.
 ```
 >>> dictionary.values()
 [21, 80, 22, 443]
