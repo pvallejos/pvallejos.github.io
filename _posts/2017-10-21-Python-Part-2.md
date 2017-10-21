@@ -75,7 +75,7 @@ Inserta el elemento en la posición index.
 ```
 
 * `L.pop([index])`
-Devuelve el valor en la posición index y lo elimina de la lista. Si no se especifica la posición, se utiliza el último elemento de la lista.
+Muestra el valor en la posición index y lo elimina de la lista. Si no se especifica la posición, se utiliza el último elemento de la lista.
 
 ```
 >>> lista = ["hola","mundo",5,3,"wifi",True]
