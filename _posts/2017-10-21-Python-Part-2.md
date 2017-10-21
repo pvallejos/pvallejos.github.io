@@ -122,6 +122,7 @@ Ordena la lista de menor a mayor.
 * `D.get(k)`
 Busca el valor de la clave `k` en el diccionario. Es equivalente a utilizar `D[k]` pero al utilizar este método podemos indicar un valor a devolver por defecto si no se encuentra la clave, mientras que con la sintaxis `D[k]` , de no existir la clave se lanzaría una excepción.
 ```
+>>> dictionary = {"ftp":21,"ssh":22,"http":80,"https":443}
 >>> dictionary["ftp"]
 21
 >>> dictionary.get("asd")
@@ -132,6 +133,7 @@ Busca el valor de la clave `k` en el diccionario. Es equivalente a utilizar `D[k
 * `D.has_key(k)`
 Comprueba si el diccionario tiene la clave `k`. Es equivalente a la sintaxis `k in D`.
 ```
+>>> dictionary = {"ftp":21,"ssh":22,"http":80,"https":443}
 >>> "https" in dictionary
 True
 >>> dictionary.has_key("https")
@@ -141,6 +143,7 @@ True
 * `D.items()`
 Devuelve una lista de tuplas con pares clave-valor.
 ```
+>>> dictionary = {"ftp":21,"ssh":22,"http":80,"https":443}
 >>> dictionary.items()
 [('ftp', 21), ('http', 80), ('ssh', 22), ('https', 443)]
 ```
@@ -158,6 +161,7 @@ Borra la clave `k` del diccionario y muestra su valor.
 * `D.keys()`
 Muestra una lista de las claves del diccionario.
 ```
+>>> dictionary = {"ftp":21,"ssh":22,"http":80,"https":443}
 >>> dictionary.keys()
 ['ftp', 'http', 'ssh', 'https']
 ```
@@ -165,6 +169,7 @@ Muestra una lista de las claves del diccionario.
 * `D.values()`
 Muestra una lista de los valores del diccionario.
 ```
+>>> dictionary = {"ftp":21,"ssh":22,"http":80,"https":443}
 >>> dictionary.values()
 [21, 80, 22, 443]
 ```
