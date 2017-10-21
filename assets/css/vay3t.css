@@ -115,6 +115,9 @@
     white-space: pre;
     word-break: inherit;
 }
+.vay3t .highlighter-rouge {
+margin: 25px 0;
+}
 .well.hidden-xs {
     display: none;
 }
