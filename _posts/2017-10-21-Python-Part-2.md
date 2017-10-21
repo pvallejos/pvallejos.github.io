@@ -37,7 +37,7 @@ Añade el elemento `k` al final de la lista.
 ```
 
 * `L.count(value)`
-Devuelve el número de veces que se encontró value en la lista.
+Muestra la cantidad de veces que se encontró value en la lista.
 
 ```
 >>> lista = [1,2,3,4,5,6,7,8,9,6]
