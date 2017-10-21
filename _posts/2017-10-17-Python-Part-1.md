@@ -39,6 +39,17 @@ Type "help", "copyright", "credits" or "license" for more information.
 >>> 
 ```
 
+# Variables
+Una variable está formada por un espacio de memoria principal de un computador y un nombre simbolico que esta asociado a ese espacio. Puede almacenar cualquier tipo de datos y puede ser llamado por el nombre dado cuando uno lo estime conveniente.
+
+```
+>>> valor1 = 1
+>>> valor2 = 3
+>>> respuesta = valor1 + valor2
+>>> respuesta
+4
+```
+
 # Tipos de datos
 Tenemos varios tipos de datos como: cadenas, enteros, flotantes, complejos, enteros largo, listas, tuplas, booleanos y diccionarios. Con el metodo `type` se puede saber que tipo de dato es con el que estamos trabajando como se muestra en el ejemplo.
 
@@ -105,13 +116,3 @@ Operadores | Descripción | Ejemplo
 "<=" | ¿es a menor o igual que b? | r = 5 <= 5 # r es True
 ">=" | ¿es a mayor o igual que b? | r = 5 >= 3 # r es True
 
-# Variables
-Una variable está formada por un espacio de memoria principal de un computador y un nombre simbolico que esta asociado a ese espacio. Puede almacenar cualquier tipo de datos y puede ser llamado por el nombre dado cuando uno lo estime conveniente.
-
-```
->>> valor1 = 1
->>> valor2 = 3
->>> respuesta = valor1 + valor2
->>> respuesta
-4
-```
