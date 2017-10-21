@@ -56,7 +56,7 @@ Añade los elementos del iterable (una lista) a la lista original.
 ```
 
 * `L.index(value)`
-Devuelve la posición en la que se encontró la primera ocurrencia del valor.
+Indica la posición en la que se encontró la primera ocurrencia del valor `value`.
 
 ```
 >>> # pos    0 1 2 3 4 5 6
