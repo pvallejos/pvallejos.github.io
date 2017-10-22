@@ -63,8 +63,8 @@ El comentario sirve para poder escribir en el codigo, pero sin afectar a este. C
 # Tipos de datos
 Tenemos varios tipos de datos como: cadenas, enteros, flotantes, complejos, enteros largo, listas, tuplas, booleanos y diccionarios. Con el metodo `type` se puede saber que tipo de dato es con el que estamos trabajando como se muestra en los ejemplos.
 
-* Cadena `str`
-la cadena o tambien llamado string es un conjunto de caracteres, por ejemplo, `a` y `h` son dos caracteres, pero cuando las unimos forman la cadena `ah` 
+* Cadena `str`: 
+La cadena o tambien llamado string es un conjunto de caracteres, por ejemplo, `a` y `h` son dos caracteres, pero cuando las unimos forman la cadena `ah` 
 
 ```
 >>> type("hola mundo")
@@ -72,7 +72,7 @@ la cadena o tambien llamado string es un conjunto de caracteres, por ejemplo, `a
 ```
 
 
-* Entero `int`
+* Entero `int`: 
 Es un numero entero que puede ser positivo o negativo
 
 ```
@@ -81,7 +81,7 @@ Es un numero entero que puede ser positivo o negativo
 ```
 
 
-* Flotante `float`
+* Flotante `float`: 
 Es otra forma de llamar a un numero decimal
 
 ```
@@ -90,7 +90,7 @@ Es otra forma de llamar a un numero decimal
 ```
 
 
-* Complejo `complex`
+* Complejo `complex`: 
 Es un numero complejo. Entiendase que numero complejo es `j es igual a raiz de -1`
 
 ```
@@ -99,7 +99,7 @@ Es un numero complejo. Entiendase que numero complejo es `j es igual a raiz de -
 ```
 
 
-* Entero largo `long`
+* Entero largo `long`: 
 Cuando usamos `int` tenemos un limite del tamaño del numero, con `long` superamos ese limite y podremos usar un numero tan grande como es capaz de soportar nuestro ordenador
 
 ```
@@ -108,7 +108,7 @@ Cuando usamos `int` tenemos un limite del tamaño del numero, con `long` superam
 ```
 
 
-* Lista `list`
+* Lista `list`: 
 Es un conjunto de elementos, el elemento puede ser cualquier tipo de dato, incluso una lista (una lista dentro de otra lista). La cualidad que tiene es que puede ser modificado (mas delante se explicará con mas detalle)
 
 ```
@@ -126,7 +126,7 @@ Al igual que la lista, es un conjunto de elementos, y tambien elemento puede ser
 ```
 
 
-* Booleano (`bool`)
+* Booleano `bool`: 
 Es un tipo de dato logico, puede ser `True` o `False`
 
 ```
