@@ -117,7 +117,7 @@ Es un conjunto de elementos, el elemento puede ser cualquier tipo de dato, inclu
 ```
 
 
-* Tupla `tuple`
+* Tupla `tuple`: 
 Al igual que la lista, es un conjunto de elementos, y tambien elemento puede ser cualquier tipo de dato, con la diferencia de que la tupla no puede modificarse.
 
 ```
@@ -135,7 +135,7 @@ Es un tipo de dato logico, puede ser `True` o `False`
 ```
 
 
-* Diccionario `dict`
+* Diccionario `dict`: 
 Parecido a las listas, con la diferencia que este posee dos partes en cada elemento, la la clave y el valor. Mas delante se explicara con mas detalle
 
 ```
