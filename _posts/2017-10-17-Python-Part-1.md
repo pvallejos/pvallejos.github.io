@@ -50,26 +50,95 @@ Una variable está formada por un espacio de memoria principal de un computador 
 4
 ```
 
+# Comentario
+El comentario sirve para poder escribir en el codigo, pero sin afectar a este. Como su nombre lo indica, sirve para comentar. Como ejemplo real, en ocaciones, cuando el codigo es muy complejo, el comentario sirve para que otro programador vea el codigo y lo entienda mas facilmente. Se usa un hashtag para poder iniciarlo, todo lo que esta despues del hastag es ignorado por el programa. Tambien sirven las comillas triples, pero estas hay que cerrarlas.
+
+```
+>>> 1 + 1 # Esto es un comentario
+2
+>>> 2 + 2 """Esto es otro comentario"""
+4
+```
+
 # Tipos de datos
-Tenemos varios tipos de datos como: cadenas, enteros, flotantes, complejos, enteros largo, listas, tuplas, booleanos y diccionarios. Con el metodo `type` se puede saber que tipo de dato es con el que estamos trabajando como se muestra en el ejemplo.
+Tenemos varios tipos de datos como: cadenas, enteros, flotantes, complejos, enteros largo, listas, tuplas, booleanos y diccionarios. Con el metodo `type` se puede saber que tipo de dato es con el que estamos trabajando como se muestra en los ejemplos.
+
+* Cadena `str`
+la cadena o tambien llamado string es un conjunto de caracteres, por ejemplo, `a` y `h` son dos caracteres, pero cuando las unimos forman la cadena `ah` 
 
 ```
 >>> type("hola mundo")
 <type 'str'>
+```
+
+
+* Entero `int`
+Es un numero entero que puede ser positivo o negativo
+
+```
 >>> type(1)
 <type 'int'>
+```
+
+
+* Flotante `float`
+Es otra forma de llamar a un numero decimal
+
+```
 >>> type(1.2)
 <type 'float'>
+```
+
+
+* Complejo `complex`
+Es un numero complejo. Entiendase que numero complejo es `j es igual a raiz de -1`
+
+```
 >>> type(3j)
 <type 'complex'>
+```
+
+
+* Entero largo `long`
+Cuando usamos `int` tenemos un limite del tamaño del numero, con `long` superamos ese limite y podremos usar un numero tan grande como es capaz de soportar nuestro ordenador
+
+```
 >>> type(23L)
 <type 'long'>
+```
+
+
+* Lista `list`
+Es un conjunto de elementos, el elemento puede ser cualquier tipo de dato, incluso una lista (una lista dentro de otra lista). La cualidad que tiene es que puede ser modificado (mas delante se explicará con mas detalle)
+
+```
 >>> type([1,2,3])
 <type 'list'>
+```
+
+
+* Tupla `tuple`
+Al igual que la lista, es un conjunto de elementos, y tambien elemento puede ser cualquier tipo de dato, con la diferencia de que la tupla no puede modificarse.
+
+```
 >>> type((1,2,3))
 <type 'tuple'>
+```
+
+
+* Booleano (`bool`)
+Es un tipo de dato logico, puede ser `True` o `False`
+
+```
 >>> type(True)
 <type 'bool'>
+```
+
+
+* Diccionario `dict`
+Parecido a las listas, con la diferencia que este posee dos partes en cada elemento, la la clave y el valor. Mas delante se explicara con mas detalle
+
+```
 >>> type({"ssh":22})
 <type 'dict'>
 ```
@@ -87,32 +156,32 @@ El orden de los operadores aritmeticos de mayor prioridad a menor (Una forma rap
 
 | Operador | Descripción | Ejemplo |
 |---|:---|:---|
-| "+" | Suma | r = 3 + 2 # r es 5 |
-| "-" | Resta | r = 4 - 7 # r es -3 |
-| "-" | Negación | r = -7 # r es -7 |
-| "*" | Multiplicación | r = 2 * 6 # r es 12 |
-| "**" | Exponente | r = 2 ** 6 # r es 64 |
-| "/" | División | r = 3.5 / 2 # r es 1.75 |
-| "//" | División entera | r = 3.5 // 2 # r es 1.0 |
-| "%" | Módulo | r = 7 % 2 # r es 1 |
+| "+" | Suma | `>>> 3 + 2` (resp es 5) |
+| "-" | Resta | `>>> 4 - 7` (resp es -3) |
+| "-" | Negación | `>>> -7` (resp es -7) |
+| "*" | Multiplicación | `>>> 2 * 6` (resp es 12) |
+| "**" | Exponente | `>>> 2 ** 6` (resp es 64) |
+| "/" | División | `>>> 3.5 / 2` (resp es 1.75) |
+| "//" | División entera | `>>> 3.5 // 2` (resp es 1.0) |
+| "%" | Módulo | `>>> 7 % 2` (resp es 1) |
 
 # Operadores logicos
+`and` y `or` trabajan con dos operandos y retornan un valor lógico basadas en las denominadas tablas de verdad. El operador `not` actúa sobre un operando. Estas tablas de verdad son conocidas y usadas en el contexto de la vida diaria, por ejemplo: "si hace sol Y tengo tiempo, iré a la playa", "si NO hace sol, me quedaré en casa", "si llueve O hace viento, iré al cine"
 
 Operador | Descripción | Ejemplo
 |---|:---|:---|
-"and" | ¿se cumple a y b? | r = True and False # r es False
-"or" | ¿se cumple a o b? | r = True or False # r es True
-"not" | No a | r = not True # r es False
+"and" | ¿se cumple a y b? | `>>> True and False` (resp es False)
+"or" | ¿se cumple a o b? | `>>> True or False` (resp es True)
+"not" | No a | `>>> not True` (resp es False)
  
 # Operadores relacionales
 Los operadores relacionales se usan para comparar 2 valores y saber si son iguales, distintos, etc
 
 Operadores | Descripción | Ejemplo
 |---|:---|:---|
-"==" | ¿son iguales a y b? | r = 5 == 3 # r es False
-"!=" | ¿son distintos a y b? | r = 5 != 3 # r es True
-"<" | ¿es a menor que b? | r = 5 < 3 # r es False
-">" | ¿es a mayor que b? | r = 5 > 3 # r es True
-"<=" | ¿es a menor o igual que b? | r = 5 <= 5 # r es True
-">=" | ¿es a mayor o igual que b? | r = 5 >= 3 # r es True
-
+"==" | ¿son iguales a y b? | `>>> 5 == 3` (resp es False)
+"!=" | ¿son distintos a y b? | `>>> 5 != 3` (resp es True)
+"<" | ¿es a menor que b? | `>>> 5 < 3` (resp es False)
+">" | ¿es a mayor que b? | `>>> 5 > 3` (resp es True)
+"<=" | ¿es a menor o igual que b? | `>>> 5 <= 5` (resp es True)
+">=" | ¿es a mayor o igual que b? | `>>> 5 >= 3` (resp es True)
