@@ -6,13 +6,12 @@ title: Python al dolor Capitulo 2
 Listas y Diccionarios en Python.
 
 # Listas
-Una lista es un conjunto de elementos, estos elementos estan ordenados desde el `0` hasta `n-1` donde `n` es la cantidad total de elementos que tiene una lista. Estos elementos pueden pertenecer a cualquier tipo de dato.
+Una lista es un conjunto de elementos, estos elementos estan ordenados desde el `0` hasta `n-1` donde `n` es la cantidad total de elementos que tiene una lista. Estos elementos pueden pertenecer a cualquier tipo de dato. En el ejemplo se muestra primero la posicion `pos` y la lista respectivamente (el numero 1 esta en la pocision 0 y asi)
 
 ```
 >>> # pos    0 1 2 3 4 5 6 7 8
 >>> lista = [1,2,3,4,5,6,7,8,9]
 ```
-
 
 * `range(k)`
 Crea una lista de 0 al numero anterior a `k` (es decir `k-1`) donde `k` es un numero entero. Concidentemente `k` es la cantidad de elementos que hay en la lista creada con range. tambien range es posible usarlo con numero de inicio hasta el numero `k-1`
@@ -24,8 +23,80 @@ Crea una lista de 0 al numero anterior a `k` (es decir `k-1`) donde `k` es un nu
 [1, 2, 3, 4, 5, 6, 7, 8, 9]
 ```
 
-### Metodos de la lista
+### Tuplas
+Una tupla es igual que una lista con la ligera diferencia que la tupla no puede ser modificada.
 
+```
+>>> tupla = (1,2,3,4,5)
+```
+
+### Anexos sobre listas y tuplas
+
+* `L[k]` Accede a un elemento especifico de la lista o tupla segun la posicion `k`
+
+```
+>>> lista = ["uno","tres","cuatro","cinco"]
+>>> lista[2]
+'cuatro'
+>>> tupla = ("tres","dos","uno")
+>>> tupla[2]
+'uno'
+```
+
+* Conversion de tipos: Una variabla declarada como tupla puede ser convertida a lista y viceversa como se muestra en el ejemplo
+
+```
+>>> tupla = (1,2,3,4,5)
+>>> tupla
+(1, 2, 3, 4, 5)
+>>> list(tupla)
+[1, 2, 3, 4, 5]
+>>> lista = [1,2,3,4,5]
+>>> tuple(lista)
+(1, 2, 3, 4, 5)
+```
+
+* Concatenacion simple: Usando el signo suma `+` se puede unir dos listas o tuplas
+
+```
+>>> lista1 = [1,2,3,4]
+>>> lista2 = [5,6,7,8]
+>>> lista1 + lista2
+[1, 2, 3, 4, 5, 6, 7, 8]
+>>> tupla1 = (1,2,3)
+>>> tupla2 = (4,5,6)
+>>> tupla1 + tupla2
+(1, 2, 3, 4, 5, 6)
+```
+
+* Maximos y minimos: Tambien se pueden obtener los valores maximos y minimos de una lista o tupla
+
+```
+>>> lista = [6,4,3,7]
+>>> max(lista)
+7
+>>> min(lista)
+3
+>>> tupla = (5,4,3,7,8)
+>>> max(tupla)
+8
+>>> min(tupla)
+3
+```
+
+* Contar elementos: Al igual que con los strings se pueden contar la cantidad de elementos que tiene una lista o tupla
+
+```
+>>> lista = ["hola",34,54,3.2,True]
+>>> len(lista)
+5
+>>> tupla = ("adios",False,200,1.9)
+>>> len(tupla)
+4
+```
+
+### Metodos de la lista
+Estos metodos son exclusivo de las listas. (no de las tuplas)
 
 * `L.append(k)`
 Añade el elemento `k` al final de la lista.
@@ -131,11 +202,11 @@ Ordena la lista de menor a mayor.
 
 
 # Diccionarios
+Parecido a las listas, con la leve diferencia que en cada elemento tiene 2 partes, una es la clave y la otra es el valor `D["clave":valor]`. Aca vemos un ejemplo de un diccionario donde sus claves son nombres de servicios y sus valores el numero de puerto.
 
 ```
 >>> dictionary = {"ftp":21,"ssh":22,"http":80,"https":443}
 ```
-
 
 ### Metodos del diccionario
 
