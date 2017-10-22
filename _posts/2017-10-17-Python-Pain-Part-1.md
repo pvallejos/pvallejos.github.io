@@ -3,7 +3,7 @@ layout: post
 title: Python al dolor Capitulo 1
 ---
 
-Introduccion a Python: ventajas, variables, comentarios, consola, tipo de datos, tipo de operadores y variables.
+Introduccion a Python: ventajas, variables, comentarios, consola, tipo de datos, tipo de operadores.
 
 # Antes de comenzar
 La serie de Python al dolor ofrece la ayuda y la enseñanza necesaria en poco tiempo para poder dominar uno de los lenguajes de scripting mas usados en la actualidad. 
