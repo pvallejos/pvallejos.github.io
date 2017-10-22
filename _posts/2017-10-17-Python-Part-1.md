@@ -156,32 +156,32 @@ El orden de los operadores aritmeticos de mayor prioridad a menor (Una forma rap
 
 | Operador | Descripción | Ejemplo |
 |---|:---|:---|
-| "+" | Suma | `>>> 3 + 2` (resp es 5) |
-| "-" | Resta | `>>> 4 - 7` (resp es -3) |
-| "-" | Negación | `>>> -7` (resp es -7) |
-| "*" | Multiplicación | `>>> 2 * 6` (resp es 12) |
-| "**" | Exponente | `>>> 2 ** 6` (resp es 64) |
-| "/" | División | `>>> 3.5 / 2` (resp es 1.75) |
-| "//" | División entera | `>>> 3.5 // 2` (resp es 1.0) |
-| "%" | Módulo | `>>> 7 % 2` (resp es 1) |
+| `+` | Suma | `>>> 3 + 2` (resp es 5) |
+| `-` | Resta | `>>> 4 - 7` (resp es -3) |
+| `-` | Negación | `>>> -7` (resp es -7) |
+| `*` | Multiplicación | `>>> 2 * 6` (resp es 12) |
+| `**` | Exponente | `>>> 2 ** 6` (resp es 64) |
+| `/` | División | `>>> 3.5 / 2` (resp es 1.75) |
+| `//` | División entera | `>>> 3.5 // 2` (resp es 1.0) |
+| `%` | Módulo | `>>> 7 % 2` (resp es 1) |
 
 # Operadores logicos
 `and` y `or` trabajan con dos operandos y retornan un valor lógico basadas en las denominadas tablas de verdad. El operador `not` actúa sobre un operando. Estas tablas de verdad son conocidas y usadas en el contexto de la vida diaria, por ejemplo: "si hace sol Y tengo tiempo, iré a la playa", "si NO hace sol, me quedaré en casa", "si llueve O hace viento, iré al cine"
 
 Operador | Descripción | Ejemplo
 |---|:---|:---|
-"and" | ¿se cumple a y b? | `>>> True and False` (resp es False)
-"or" | ¿se cumple a o b? | `>>> True or False` (resp es True)
-"not" | No a | `>>> not True` (resp es False)
+`and` | ¿se cumple a y b? | `>>> True and False` (resp es False)
+`or` | ¿se cumple a o b? | `>>> True or False` (resp es True)
+`not` | No a | `>>> not True` (resp es False)
  
 # Operadores relacionales
 Los operadores relacionales se usan para comparar 2 valores y saber si son iguales, distintos, etc
 
 Operadores | Descripción | Ejemplo
 |---|:---|:---|
-"==" | ¿son iguales a y b? | `>>> 5 == 3` (resp es False)
-"!=" | ¿son distintos a y b? | `>>> 5 != 3` (resp es True)
-"<" | ¿es a menor que b? | `>>> 5 < 3` (resp es False)
-">" | ¿es a mayor que b? | `>>> 5 > 3` (resp es True)
-"<=" | ¿es a menor o igual que b? | `>>> 5 <= 5` (resp es True)
-">=" | ¿es a mayor o igual que b? | `>>> 5 >= 3` (resp es True)
+`==` | ¿son iguales a y b? | `>>> 5 == 3` (resp es False)
+`!=` | ¿son distintos a y b? | `>>> 5 != 3` (resp es True)
+`<` | ¿es a menor que b? | `>>> 5 < 3` (resp es False)
+`>` | ¿es a mayor que b? | `>>> 5 > 3` (resp es True)
+`<=` | ¿es a menor o igual que b? | `>>> 5 <= 5` (resp es True)
+`>=` | ¿es a mayor o igual que b? | `>>> 5 >= 3` (resp es True)
