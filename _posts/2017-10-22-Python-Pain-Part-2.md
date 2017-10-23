@@ -276,3 +276,76 @@ Muestra una lista de los valores del diccionario.
 >>> dictionary.values()
 [21, 80, 22, 443]
 ```
+
+
+# Conjuntos
+Python también dispone de conjuntos en forma nativa. Aquí “conjunto” se ha de entender como en su definición matemática: un grupo finito y sin orden de elementos únicos (no pueden existir dos elementos iguales en un conjunto). En Python se agrega otra restricción: los elementos deben ser además inmutables (no se pueden cambiar).
+
+```
+>>> cjto = set((1, 5, 0, 9, 3, 0, 2, 1))
+>>> print cjto
+set([0, 1, 2, 3, 5, 9])
+```
+
+### Metodos del conjunto
+
+* `C.add(k)` Agrega un elemento al conjunto
+
+```
+>>> cjto = set((1, 5, 0, 9, 3, 0, 2, 1))
+>>> cjto
+set([0, 1, 2, 3, 5, 9])
+>>> cjto.add(10)
+>>> cjto
+set([0, 1, 2, 3, 5, 9, 10])
+```
+
+* `C.discard(k)` Elimina un elemento del conjunto
+
+```
+>>> cjto = set((1, 5, 0, 9, 3, 0, 2, 1))
+>>> cjto
+set([0, 1, 2, 3, 5, 9])
+>>> cjto.discard(9)
+>>> cjto
+set([0, 1, 2, 3, 5])
+```
+
+* `C1.union(C2)` Une 2 conjuntos
+
+```
+>>> cjto1 = set([1,2,3,4])
+>>> cjto2 = set([3,4,5,6])
+>>> cjto1.union(cjto2)
+set([1, 2, 3, 4, 5, 6])
+```
+
+* `C1.intersection(C2)` Es el conjunto de elementos que estan en ambos conjuntos
+
+```
+>>> cjto1 = set([1,2,3,4])
+>>> cjto2 = set([3,4,5,6])
+>>> cjto1.intersection(cjto2)
+set([3, 4])
+```
+
+* `C1.difference(C2)` Es el conjunto de elementos que pertenecen a C1 pero que no pertenezca ningun elemento del conjunto C2
+
+```
+>>> cjto1 = set([1,2,3,4])
+>>> cjto2 = set([3,4,5,6])
+>>> cjto1.difference(cjto2)
+set([1, 2])
+>>> cjto2.difference(cjto1)
+set([5, 6])
+```
+
+
+* `C1.symmetric_difference(C2)` Ss el conjunto de elementos que están en C1 o C2, pero no en ambos.
+
+```
+>>> cjto1 = set([1,2,3,4])
+>>> cjto2 = set([3,4,5,6])
+>>> cjto1.symmetric_difference(cjto2)
+set([1, 2, 5, 6])
+```
