@@ -3,7 +3,7 @@ layout: post
 title: Python al dolor Capitulo 2
 ---
 
-Colecciones en Python: Listas, Tuplas y Diccionarios.
+Colecciones en Python: Listas, Tuplas, Diccionarios y Conjuntos.
 
 # Listas
 Una lista es un conjunto de elementos, estos elementos estan ordenados desde el `0` hasta `n-1` donde `n` es la cantidad total de elementos que tiene una lista. Estos elementos pueden pertenecer a cualquier tipo de dato. En el ejemplo se muestra primero la posicion `pos` y la lista respectivamente (el numero 1 esta en la pocision 0 y asi)
