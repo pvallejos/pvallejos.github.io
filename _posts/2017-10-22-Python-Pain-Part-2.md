@@ -282,7 +282,7 @@ Muestra una lista de los valores del diccionario.
 
 
 # Conjuntos
-Python también dispone de conjuntos en forma nativa. Aquí “conjunto” se ha de entender como en su definición matemática: un grupo finito y sin orden de elementos únicos (no pueden existir dos elementos iguales en un conjunto). En Python se agrega otra restricción: los elementos deben ser además inmutables (no se pueden cambiar). Lo que hace le metodo `set()` es transformar una lista en un conjunto.
+Python también dispone de conjuntos en forma nativa. Aquí “conjunto” se ha de entender como en su definición matemática: un grupo finito y sin orden de elementos únicos (no pueden existir dos elementos iguales en un conjunto). En Python se agrega otra restricción: los elementos deben ser además inmutables (no se pueden cambiar). Lo que hace le metodo `set()` es transformar una lista o tupla en un conjunto.
 
 ```
 >>> cjto = set((1, 5, 0, 9, 3, 0, 2, 1))
