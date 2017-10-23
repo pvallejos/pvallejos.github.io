@@ -32,12 +32,15 @@ Una tupla es igual que una lista con la ligera diferencia que la tupla no puede 
 
 ### Anexos sobre listas y tuplas
 
-* `L[k]` Accede a un elemento especifico de la lista o tupla segun la posicion `k`
+* `L[k]` Accede a un elemento especifico de la lista o tupla segun la posicion `k`.En las listas es posible cambiarle un valor a la pocision usando `L[k] = value` donde `k` no puede ser mayor a la cantidad total menos 1 (`n-1`)
 
 ```
 >>> lista = ["uno","tres","cuatro","cinco"]
 >>> lista[2]
 'cuatro'
+>>> lista[3] = "seis"
+>>> lista
+['uno', 'tres', 'cuatro', 'seis']
 >>> tupla = ("tres","dos","uno")
 >>> tupla[2]
 'uno'
