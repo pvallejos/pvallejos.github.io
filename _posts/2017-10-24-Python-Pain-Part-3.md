@@ -261,7 +261,7 @@ elif opcion == "c":
 	print "Respuesta: " , str(respuesta)
 
 elif opcion ="d":
-	print ">>> MULTIPLICACION <<<"
+	print ">>> DIVISION <<<"
 	print ""
 	numeroA = float(raw_input("Ingrese numero A "))
 	numeroB = float(raw_input("Ingrese numero B "))
