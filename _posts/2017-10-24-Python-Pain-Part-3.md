@@ -3,7 +3,7 @@ layout: post
 title: Python al dolor Capitulo 3
 ---
 
-Mi primer programa en Python, que es una Funcion, biblioteca `math` y sentencias de desicion
+Mi primer programa en Python, que es una Funcion, biblioteca `math` y sentencias de decision
 
 # Mi primer programa en python
 Para crear nuestro primer programa en python necesitamos de un editor de texto (en mi caso prefiero sublime-text pero recomiendo el IDE PyCharms) y la terminal para poder ejecutar nuestros programas. Los programas en python tienen como extencion `.py`. En nuestro editor de texto escribimos y lo guardamos como `holamundo.py`, el `print` sirve para poder mostrar en pantalla algun mensaje:
@@ -157,7 +157,7 @@ Podemos notar que a pesar de importar el módulo math ocurrió un error al invoc
 
 Con lo anterior, pudimos importar las funciones seno y coseno, lo que nos permite usarlas escribiendo sólo su nombre y los parámetros actuales correspondientes.
 
-# Estructuras de desicion
+# Estructuras de decision
 
 Las estructuras de control condicionales, son aquellas que nos permiten evaluar si una o más condiciones se cumplen, para decir qué acción vamos a ejecutar. La evaluación de condiciones, solo puede arrojar 1 de 2 resultados: verdadero o falso (`True` o `False`). Un ejemplo que podriamos usar para explicar mejor esto es el siguiente: SI el semaforo está en verde, cruzar la calle. SINO esperar a que esté en verde. Otro ejemplo para usar condiciones es el siguiente: SI tengo hambre Y dinero, comprar comida. 
 
