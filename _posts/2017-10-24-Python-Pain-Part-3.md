@@ -194,7 +194,7 @@ Adulto
 ```
 
 # Creando un programa
-Antes de crear un programa necesitamos responder una pregunta ¿Que problema resolvera nuestro programa?, en caso de ejemplo necesitamos crear una calculadora en donde se puedan ingresar 2 numeros y resolver operaciones matematicas. Para eso necesitamoss diseñar el programa de la siguiente manera, primero creamos las funciones que vamos a usar en el programa. Estas funciones serán las encargadas de realizar el trabajo pesado, las operaciones fundamentales. Luego realizamos un menu de opciones donde sabremos que cosas queremos que haga nuestro programa. Y por ultimo aplicamos las opciones y llamamos las funciones.
+Antes de crear un programa necesitamos responder una pregunta ¿Que problema resolvera nuestro programa?, en caso de ejemplo necesitamos crear una calculadora en donde se puedan ingresar 2 numeros y resolver operaciones matematicas. Para eso necesitamos diseñar el programa de la siguiente manera, primero creamos las funciones que vamos a usar en el programa. Estas funciones serán las encargadas de realizar el trabajo pesado, las operaciones fundamentales. Luego realizamos un menu de opciones donde sabremos que cosas queremos que haga nuestro programa. Y por ultimo aplicamos las opciones y llamamos las funciones.
 
 ```python
 
