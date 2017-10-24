@@ -260,7 +260,7 @@ elif opcion == "c":
 	respuesta = multiplicacion(numeroA,numeroB)
 	print "Respuesta: " , str(respuesta)
 
-elif opcion ="d":
+elif opcion = "d":
 	print ">>> DIVISION <<<"
 	print ""
 	numeroA = float(raw_input("Ingrese numero A "))
