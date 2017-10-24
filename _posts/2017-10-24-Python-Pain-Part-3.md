@@ -192,3 +192,88 @@ Y en la salida:
 root@vay3t:~# python edades.py
 Adulto
 ```
+
+# Creando un programa
+Antes de crear un programa necesitamos responder una pregunta ¿Que problema resolvera nuestro programa?, en caso de ejemplo necesitamos crear una calculadora en donde se puedan ingresar 2 numeros y resolver operaciones matematicas. Para eso necesitamoss diseñar el programa de la siguiente manera, primero creamos las funciones que vamos a usar en el programa. Estas funciones serán las encargadas de realizar el trabajo pesado, las operaciones fundamentales. Luego realizamos un menu de opciones donde sabremos que cosas queremos que haga nuestro programa. Y por ultimo aplicamos las opciones y llamamos las funciones.
+
+```python
+
+# Difinir la funcion suma
+def suma(x,y):
+	respuesta = x + y
+	return respuesta
+
+# Difinir la funcion resta
+def resta(x,y):
+	respuesta = x - y
+	return respuesta
+
+# Difinir la funcion multiplicacion
+def multiplicacion(x,y):
+	respuesta = x * y
+	return respuesta
+
+# Difinir la funcion division
+def division(x,y):
+	respuesta = x / y
+	return respuesta
+
+# Menu de programa
+print """
+========== MENU =========
+	a) Sumar
+	b) Restar
+	c) Multiplicar
+	d) dividir
+"""
+
+# Entrada para ingresar opcion valida
+opcion = raw_input("Elija opcion > ")
+
+# Condicion para elegir la suma
+if opcion == "a":
+	print ">>> SUMA <<<"
+	print ""
+	numeroA = float(raw_input("Ingrese numero A "))
+	numeroB = float(raw_input("Ingrese numero B "))
+	# Operacion suma
+	respuesta = suma(numeroA,numeroB)
+	print "Respuesta: " , str(respuesta)
+
+# Condicion para elegir la resta
+elif opcion == "b":
+	print ">>> RESTA <<<"
+	print ""
+	numeroA = float(raw_input("Ingrese numero A "))
+	numeroB = float(raw_input("Ingrese numero B "))
+	# Operacion resta
+	respuesta = resta(numeroA,numeroB)
+	print "Respuesta: " , str(respuesta)
+
+# Condicion para elegir la multiplicacion
+elif opcion == "c":
+	print ">>> MULTIPLICACION <<<"
+	print ""
+	numeroA = float(raw_input("Ingrese numero A "))
+	numeroB = float(raw_input("Ingrese numero B "))
+	# Operacion multiplicacion
+	respuesta = multiplicacion(numeroA,numeroB)
+	print "Respuesta: " , str(respuesta)
+
+elif opcion ="d":
+	print ">>> MULTIPLICACION <<<"
+	print ""
+	numeroA = float(raw_input("Ingrese numero A "))
+	numeroB = float(raw_input("Ingrese numero B "))
+	# Condicion para que no nos arroje error el programa cuando dividamos por cero
+	if numeroB == 0.0:
+		print "El numero B no puede ser 0!"
+	# En caso de que el numero B no sea 0 proceder con la division
+	else:
+		# Operacion division
+		respuesta = division(numeroA,numeroB)
+		print "Respuesta: " , str(respuesta)
+
+else:
+	print "Ingrese opcion valida"
+```
