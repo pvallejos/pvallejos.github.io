@@ -262,6 +262,7 @@ elif opcion == "c":
 	respuesta = multiplicacion(numeroA,numeroB)
 	print "Respuesta: " , str(respuesta)
 
+# Condicion para elegir la division
 elif opcion = "d":
 	print ">>> DIVISION <<<"
 	print ""
