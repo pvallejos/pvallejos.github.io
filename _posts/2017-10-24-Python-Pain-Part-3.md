@@ -123,6 +123,7 @@ Nombre | Descripción
 `degrees(x)` | Convierte a grados un ángulo x expresado en radianes
 `radians(x)` | Convierte a radianes un ángulo x expresado en grados
 
+
 Probemos en el intérprete de Python la función `sin()`.
 
 ```
