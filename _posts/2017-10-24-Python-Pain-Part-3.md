@@ -3,7 +3,7 @@ layout: post
 title: Python al dolor Capitulo 3
 ---
 
-Mi primer programa en Python, que es una Funcion, biblioteca `math` y sentencias de decision
+Mi primer programa en Python, que es una Funcion, biblioteca math y sentencias de decision
 
 # Mi primer programa en python
 Para crear nuestro primer programa en python necesitamos de un editor de texto (en mi caso prefiero sublime-text pero recomiendo el IDE PyCharms) y la terminal para poder ejecutar nuestros programas. Los programas en python tienen como extencion `.py`. En nuestro editor de texto escribimos y lo guardamos como `holamundo.py`, el `print` sirve para poder mostrar en pantalla algun mensaje:
@@ -108,7 +108,7 @@ root@vay3t:~# python sumas.py
 7
 ```
 
-# Libreria `math`
+# Biblioteca math
 Podemos extender la funcionalidad de Python agregándole funciones importadas. Estas no vienen nativamente con el intérprete, sino que se encuentran en bibliotecas para que sean consultadas por él. A estas bibliotecas de Python se les conoce como módulos. Uno de los módulos que nos será de utilidad es `math`, que contiene muchas de las funciones matemáticas y trigonométricas que usamos. La siguiente tabla lista algunas de las funciones que podemos destacar:
 
 Nombre | Descripción
