@@ -19,7 +19,7 @@ root@vay3t:~# python holamundo.py
 Hola mundo!
 ```
 
-Para complicar aun mas nuestro script vamos a añadirle `raw_input()`, esta funcion lo que hacer es pedir al usuario que ingrese algun dato, pero lo guarda como un `str`. Para unir 2 cadenas podemos usar el signo suma `+`. En este caso este script lo guardaré como `saludo.py`
+* `raw_input()` Esta funcion lo que hace es pedir al usuario que ingrese algun dato, pero lo guarda como un `str`. En este caso este script lo guardaré como `saludo.py`
 
 ```python
 nombre = raw_input("Ingrese nombre: ")
@@ -277,6 +277,8 @@ elif opcion = "d":
 		respuesta = division(numeroA,numeroB)
 		print "Respuesta: " , str(respuesta)
 
+# En caso de que ninguna de las opciones anteriores alla sido valida
+# se realizará el else
 else:
 	print "Ingrese opcion valida"
 ```
