@@ -178,15 +178,15 @@ Otro ejemplo que podriamos revisar es el siguiente, creamos un programa llamado 
 edad = 30
 
 if edad <= 13:
-	print "Menor"
+    print "Menor"
 elif edad > 13 and edad < 18:
-	print "Adolecente"
+    print "Adolecente"
 elif edad >= 18 and edad < 30:
-	print "Adulto joven"
+    print "Adulto joven"
 elif edad >= 30 and edad < 60:
-	print "Adulto"
+    print "Adulto"
 elif edad >= 60:
-	print "Adulto mayor"
+    print "Adulto mayor"
 ```
 
 Y en la salida:
