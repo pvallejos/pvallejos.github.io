@@ -164,6 +164,8 @@ Las estructuras de control condicionales, son aquellas que nos permiten evaluar 
 Las estructuras de control de flujo condicionales, se definen mediante el uso de tres palabras claves reservadas, del lenguaje: `if` (si), `elif` (sino, si) y `else` (sino).
 
 ```python
+semaforo = "rojo"
+
 if semaforo == "verde": 
     print "Cruzar la calle"
 else: 
