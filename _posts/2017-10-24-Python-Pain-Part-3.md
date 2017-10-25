@@ -19,7 +19,7 @@ root@vay3t:~# python holamundo.py
 Hola mundo!
 ```
 
-* `raw_input()` Esta funcion lo que hace es pedir al usuario que ingrese algun dato, pero lo guarda como un `str`. En este caso este script lo guardaré como `saludo.py`
+* `raw_input()` Esta funcion lo que hace es pedir al usuario que ingrese algun dato, pero lo guarda como un `str`. En este caso este script (programa) lo guardaré como `saludo.py` (Lo siguiente escrito se hará en el editor de texto)
 
 ```python
 nombre = raw_input("Ingrese nombre: ")
@@ -78,7 +78,7 @@ En posts anteriores conocimos que para Python los números pueden ser de tres ti
 |---|:---|
 `int(x)` | Recibe un número y lo convierte a un entero, si el número no puede ser contenido en 4 bits, se guarda como `long`, en caso de recibir un `float`, el resultado se trunca, no se aproxima.
 `long(x)` | Recibe un número y lo convierte a un entero largo, (sin importar que pueda ser representado como `int`), en caso de recibir un `float`, el resultado se trunca, no se aproxima.
-`float(x)` | Recibe un número y lo convierte a un flotante, en caso de recibir un `float`, el resultado se trunca, no se aproxima.
+`float(x)` | Recibe un número y lo convierte a un flotante, en caso de recibir un `float`, el resultado es el mismo `float`.
 
 ### Creando nuestra propia funcion
 Muchas veces necesitamos alguna funcion, pero esta, no existe en Python, para eso se nos da la facilidad de programar nuestra propia funcion para asi usarla mas adelante. Es un bloque de código que tiene un nombre asociado y ejecuta una serie órdenes retornando un valor, Además puede ser invocado n veces desde el programa
