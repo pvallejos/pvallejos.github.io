@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Python al dolor Capitulo 3
+category: Python
 ---
 
 Mi primer programa en Python, que es una Funcion, biblioteca math y sentencias de decision
