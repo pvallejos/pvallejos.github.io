@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Python al dolor Capitulo 2
+category: Python
 ---
 
 Colecciones en Python: Listas, Tuplas, Diccionarios y Conjuntos.
