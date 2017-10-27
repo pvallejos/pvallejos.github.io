@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Hardening Raspbian
+category: RaspberryPi
 ---
 
 Raspbian secure configs
