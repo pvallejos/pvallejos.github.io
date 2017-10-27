@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Raspberry Serial Console
-category: RaspberryPi
+categories: RaspberryPi
 ---
 
 Raspberry Pi serial console connection with TTL2USB cable
