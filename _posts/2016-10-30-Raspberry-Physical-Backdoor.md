@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Raspberry Physical Backdoor
+category: RaspberryPi
 ---
 
 Reverse SSH connection with Raspbian
