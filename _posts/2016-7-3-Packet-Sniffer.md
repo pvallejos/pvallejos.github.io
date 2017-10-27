@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Packet Sniffer
-category: RaspberryPi
+categories: RaspberryPi
 ---
 
 Packet Sniffer with Raspberry Pi
