@@ -228,7 +228,7 @@ print """
 	a) Sumar
 	b) Restar
 	c) Multiplicar
-	d) dividir
+	d) Dividir
 """
 
 # Entrada para ingresar opcion valida
@@ -265,7 +265,7 @@ elif opcion == "c":
 	print "Respuesta: " , str(respuesta)
 
 # Condicion para elegir la division
-elif opcion = "d":
+elif opcion == "d":
 	print ">>> DIVISION <<<"
 	print ""
 	numeroA = float(raw_input("Ingrese numero A "))
@@ -280,7 +280,7 @@ elif opcion = "d":
 		print "Respuesta: " , str(respuesta)
 
 # En caso de que ninguna de las opciones anteriores alla sido valida
-# se realizará el else
+# se realizara el else
 else:
 	print "Ingrese opcion valida"
 ```
