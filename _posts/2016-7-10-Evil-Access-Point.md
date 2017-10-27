@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Evil Access Point
+category: Wireless
 ---
 
 Evil Access Point with Linux
