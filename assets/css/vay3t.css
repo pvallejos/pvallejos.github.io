@@ -460,10 +460,11 @@ background: #1b1a1a;
 }
 
 .vay3t .categories ul li {
+    margin: 0 0 5px 0;
     padding: 0 0 0 40px;
-    -webkit-transition: all 0.1s ease-in-out;
-    -moz-transition: all 0.1s ease-in-out;
-    transition: all 0.1s ease-in-out;
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out;
 }
 
 .vay3t .categories ul li:hover {
