@@ -454,12 +454,29 @@ background: #1b1a1a;
 .vay3t .categories ul {
     list-style-type: circle;
     list-style-position: inside;
+    font-size: 24px;
+    line-height: 100%;
+}
+
+.vay3t .categories ul li {
+    margin: 0 0 10px 0;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+}
+
+.vay3t .categories ul li:hover {
+    list-style-type: disc;
+    padding: 0;   
 }
 
 .vay3t .categories li a {
     font-size: 20px;
 }
 
+.vay3t .categories li a:hover {
+    text-decoration: none;
+}
 .vay3t .categories li a span {
     font-size: 16px;
     color: #666;
