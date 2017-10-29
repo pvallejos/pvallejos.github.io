@@ -20,9 +20,10 @@ title: Categorias
            <li>
              <a href="{{ site.baseurl }}{{ post.url }}">{{post.title}} <span class="post-date">{{ post.date | date: "%e %B %Y" }}</span></a>
           </li>
+          {% endfor %}
         </ul>
     </article>
-    {% endfor %}
+
   </div>
 {% endfor %}
 </div>
