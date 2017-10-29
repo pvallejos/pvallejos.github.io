@@ -456,10 +456,11 @@ background: #1b1a1a;
     list-style-position: inside;
     font-size: 24px;
     line-height: 100%;
+    padding: 0;
 }
 
 .vay3t .categories ul li {
-    margin: 0 0 10px 0;
+    padding: 0 0 0 40px;
     -webkit-transition: all 0.1s ease-in-out;
     -moz-transition: all 0.1s ease-in-out;
     transition: all 0.1s ease-in-out;
